@@ -1,0 +1,152 @@
+﻿/*
+	Element selector
+	Select all instances of a given element :
+
+selector {
+	property: value;
+	anotherProperty: value;
+}
+
+	ID selector
+	Selects an element with a give, ID. Only one of each per page!
+
+#selector {
+	proprety: value;
+}
+
+	Class selector
+	Selects all elements with a given class. As many as you want, unlike ID's.
+
+.selector{
+	proprety: value;
+}
+
+	Star selector
+	Selects everything on the page.
+
+* {
+	proprety: value;
+}
+
+	Descendant selector
+	Selects every given element that is inside any other given element.
+	In this case, it selects every <a> that is in a <li>, and only the one that are in a <li>
+
+li a {
+	property value
+}
+
+	Adjacent selector
+	Selects every given element that is right underneath any other given element. 
+	In this case, selects every <ul> that is directly after an <h4>.
+
+h4 + ul {
+	property: value;
+}
+
+	Attribute selector
+	Selects any every given element that has any given attribute value.
+	In this case, selects every <input> that is a type="checkbox".
+	
+input[type="checkbox"] {
+	property: value;
+}
+
+	nth of type selector
+	Selects every nth given element of any given group.
+	In this case, selects every 3rd <ul> of every <div>.
+
+ul:nth-of-type(3) {
+	property: value;
+}
+	
+	In this case, selects every 1 out of 2 <ul> of every <div>, starting with the second one.
+ul:nth-of-type(even) {
+	property: value;
+}
+
+
+	Hexidecimal 
+	colors : # + String of 6 hexadicimal numbers (from 0-9 < A-F)
+	0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F.
+	#Red Green Blue
+	#0 9 F / #09F
+	#00 9A FF / #009AFF
+	#000 9AF FFF / #0009AFFFF
+
+	RGB 
+	3 Channels : Red, Green, and Blue. Each ranges from 0-255
+	color: rgb(0,255,0);
+	color: rgb(11, 0, 100);
+	color: rgb(111, 555, 150);
+
+	RGBA
+	Just like RGB, but with an alpha (transparency) channel. Ranges from 0.0 - 1.0
+	color: rgb(0,255,0, 1);
+	color: rgb(11, 0, 100, .6);
+	color: rgb(111, 555, 150, .2);
+
+	Color and Background
+	Use "color" to set text color and "background" for background color
+	color: white;
+	background: black;
+
+	Border
+	All three properties bellow have to mentionned 
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+
+	Background Image
+	The background property can also set a background image
+	background: url(https:/www.blablabla.com/blablabla.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+*/
+
+body {
+	background-color: #9f0000;
+}
+
+#divn1 {
+	color: #9f0000;
+	background-color: black;
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+	border: dashed;
+}
+
+#divn2 {
+	background:
+	/* top, transparent black, faked with gradient */
+	linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ),
+	/* bottom, image */
+	url(https://images2.alphacoders.com/564/thumb-1920-564835.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+}
+
+.yellowText {
+	color: yellow;
+}
+
+#divn3 {
+	background: yellow;
+	border-width: 5px;
+	border-style: solid;
+}
+
+.liInDivn3 {
+	border: 2px solid;
+	border-radius: 40px;
+	background: #9f0000;
+	display: inline;
+}
+
+.html {
+	text-decoration:line-through;
+}

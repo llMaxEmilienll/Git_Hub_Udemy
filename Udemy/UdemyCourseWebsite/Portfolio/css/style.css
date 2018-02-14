@@ -1,0 +1,16 @@
+body {
+	background: black;
+}
+
+.div1, a:visited, a{
+	border: 2px solid black;
+	border: 200px;
+	background: white;
+	padding: 10px 5px 10px 10px;
+	color: black;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.div2 {
+	background: white;
+}
