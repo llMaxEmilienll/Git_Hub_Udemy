@@ -8,7 +8,7 @@ selector {
 }
 
 	ID selector
-	Selects an element with a give, ID. Only one of each per page!
+	Selects an element with a given, ID. Only one of each per page!
 
 #selector {
 	proprety: value;
@@ -92,7 +92,7 @@ ul:nth-of-type(even) {
 	background: black;
 
 	Border
-	All three properties bellow have to mentionned 
+	All three properties bellow have to be mentionned 
 	border-color: purple;
 	border-width: 5px;
 	border-style: solid;
