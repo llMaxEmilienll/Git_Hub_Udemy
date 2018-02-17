@@ -1,0 +1,35 @@
+#MainDiv {
+	border: 10px solid #bdc3c7;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding: 20px 20px 0 20px;
+}
+
+p {
+	margin: 0 0 15px 0;
+	font-family: sans-serif;
+	font-size: 13.2px;
+	font-weight: 500;
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.LeftBorder {
+	border-left: 4px solid #bdc3c7;
+	padding-left: 4px;
+	width: 98%;
+}
+
+hr {
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+h2 {
+	color: #2c3e50;
+	font-size: 20px;
+}

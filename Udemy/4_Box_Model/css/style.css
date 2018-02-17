@@ -1,0 +1,31 @@
+p {
+
+/* Content, Border, Padding, Margin are the only things you need to consider when moving elements around. Content is self explanatory, Border is what surrounds the Content, Padding is between the Content and the Border, Margin is all around the element. /
+
+Note: px is required unless the value is 0. /
+
+auto makes a value responsive. */
+
+/* Content - Width and Height */
+
+width: 50px;
+
+/* Border */
+
+border: 2px solid blue;
+
+/* Padding */
+
+/* padding: 10px; */
+padding-left: 40px;
+
+/* Margin */
+
+/* margin: 100px; */
+/* margin-top: 500px; */
+/* margin: 20px 40px 500px 100px; */
+/* margin: 0 auto 0 auto; */
+margin: 0 auto;
+margin: 50px 20px;
+
+}

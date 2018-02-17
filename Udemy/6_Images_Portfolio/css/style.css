@@ -1,0 +1,23 @@
+/* float sticks all elements, in this case to the left so that you can plan on moving and placing those elements without extra white space. /
+
+width is set to 30% so each element takes 30 % of the vertical and horizontal lining of the page and makes it responsive. /
+
+margin is calculated to take up the rest of the space that the elements did not take to even things out, knowing all elements have margins and there is 3 elements per line you have to consider a right and left margin for each element on each line, which make it 2 times 3 = 6, and since all three elements take up 90% of the space vertically on each line you have to calculate 10% (which is the rest of the space) divided by 6 which is about 1.66, and of course setting it to margin also changes the horizontal spacing, which makes spacing of all sides of the elements equal. */
+
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+p {
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-family: Arial;
+	border-bottom: 2px solid #e9e9e9;
+	width: 30%;
+	padding-bottom: 20px;
+	color: rgb(0, 150, 255);
+}
